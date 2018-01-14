@@ -1,0 +1,91 @@
+.card{
+  align-self: center;
+  margin: auto;
+  width: 280px;
+  height: 450px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  
+}
+
+.card:hover{
+  box-shadow: 0 9px 27px rgba(0,0,0,0.3);
+}
+
+
+.head{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 280px;
+  height: 140px;
+  background: #00959a;
+  background: -webkit-linear-gradient(bottom left, #00959a, #00bd8f);
+  background: -o-linear-gradient(bottom right, #00959a, #00bd8f); 
+  background: -moz-linear-gradient(bottom right, #00959a, #00bd8f); 
+  background: linear-gradient(to top right, #00959a, #00bd8f); 
+
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-top: -60px;
+  margin-left: 80px;
+  border: solid 3px white;
+  
+}
+
+hr{
+  position: relative;
+  border-top: dashed 1px #00858a;
+  top: 0%;
+  z-index: -1;
+
+}
+
+.informacoes{
+  position: relative;
+  margin-top: 50px;
+}
+
+.informacoes h3{
+  color: #787878;
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+
+}
+
+.informacoes p{
+  color: #bdbdbd;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-top: -20px;
+}
+.redes-sociais{
+  margin-top: 40%;
+  
+}
+
+.icon-item{
+  color: #a1a1a1;
+  margin: 5%;
+  margin-left: 8%;
+
+
+}
+
+.icon-item:hover{
+  color: #00858a;
+}
+
+.conteudo{
+  position: relative;
+  bottom: 10%;
+  
+}
+
+
